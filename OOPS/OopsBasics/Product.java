@@ -1,0 +1,5 @@
+package OopsBasics;
+
+class Product {
+
+}
