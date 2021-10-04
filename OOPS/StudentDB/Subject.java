@@ -1,4 +1,4 @@
-package OopsBasics;
+package StudentDB;
 //Learning Object Arrays
 public class Subject {
 	private String name;
