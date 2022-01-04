@@ -1,6 +1,6 @@
 package OopsBasics;
 
-public class Rectangle {
+ class Rectangle {
 	private double length;
 	private double breadth;
 	
