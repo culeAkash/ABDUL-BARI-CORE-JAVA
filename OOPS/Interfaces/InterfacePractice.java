@@ -7,10 +7,10 @@ package Interfaces;
  * An interface can have identifiers but static final(constant)
  * Abstract methods inside an interface has to be public as they are meant to be implemented
  * An interface can have default methods with body to prevent errors when only we want to change a method inside the interface, if we do not give the body and add an 
- * abstract class to the interface all the concrete classes implementing it will become abstract
+   abstract class to the interface all the concrete classes implementing it will become abstract.
  * An interface can also have private classes with body to be used inside default classes 
  * Public methods inside interfaces are always abstract
- * */
+ */
 
 interface TestNew{
 	final static int X=10;//Identifiers inside an interface is usually capitalised
