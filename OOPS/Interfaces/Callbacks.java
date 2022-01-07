@@ -1,5 +1,9 @@
 package Interfaces;
 
+//In java there are nothing such as callback functions but we can create a callback function by creating an instance of an interface containing the callback and 
+//then calling the function via reference of the interface
+
+
 interface Member{
 	public void callBack();
 }
