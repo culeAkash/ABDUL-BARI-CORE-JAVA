@@ -26,6 +26,7 @@ public class Honda {
 		HondaCity h2= new HondaCity();
 		
 		h1.price=30;
+		//It will get changed for all the objects and Class itself as it is a static variable and only one copy of it is created
 		System.out.println(h1.priceOnRoad("Delhi"));
 		System.out.println(h2.priceOnRoad("Mumbai"));
 		System.out.println(HondaCity.priceOnRoad("kolkata"));
