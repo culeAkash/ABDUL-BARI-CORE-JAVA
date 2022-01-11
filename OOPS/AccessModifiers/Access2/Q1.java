@@ -14,12 +14,11 @@ public class Q1 {
 }
 
  class Q2 extends P1{
-    
+	 	
     }
     
-class Test{
+class Test {
     public static void main(String[] args) {
-       
-        
-    }
+		Q2 q= new Q2();
+	}
 }

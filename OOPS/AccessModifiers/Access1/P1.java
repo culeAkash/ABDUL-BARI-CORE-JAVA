@@ -17,7 +17,7 @@ package AccessModifiers.Access1;
         System.out.println("Welcome to ");
     }//display method can be used in the same class only
 
-    protected void show(){
+    public void show(){
         System.out.println("Welcome to show");
     }
 
