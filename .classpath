@@ -8,5 +8,6 @@
 	</classpathentry>
 	<classpathentry kind="src" path="Basics/Printing"/>
 	<classpathentry kind="src" path="Basics/String"/>
+	<classpathentry kind="src" path="Multithreading"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
