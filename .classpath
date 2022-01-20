@@ -10,5 +10,6 @@
 	<classpathentry kind="src" path="Basics/String"/>
 	<classpathentry kind="src" path="Multithreading"/>
 	<classpathentry kind="src" path="JavaLangClasses"/>
+	<classpathentry kind="src" path="IOStreams"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
