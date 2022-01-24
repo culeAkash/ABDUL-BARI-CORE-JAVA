@@ -11,5 +11,6 @@
 	<classpathentry kind="src" path="Multithreading"/>
 	<classpathentry kind="src" path="JavaLangClasses"/>
 	<classpathentry kind="src" path="IOStreams"/>
+	<classpathentry kind="src" path="Collection Framewrok"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
