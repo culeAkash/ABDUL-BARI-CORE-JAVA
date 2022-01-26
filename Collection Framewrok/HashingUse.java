@@ -1,4 +1,6 @@
 import java.util.HashSet;
+import java.util.Iterator;
+import java.util.LinkedHashSet;
 import java.util.List;
 import java.util.TreeSet;
 
@@ -90,5 +92,24 @@ class Point implements Comparable<Point> {
         }
         return 0;
 
+    }
+}
+
+class LinkedHashSetUse{
+    public static void main(String[] args) {
+        LinkedHashSet<Integer> lhs= new LinkedHashSet<>(10);
+
+        lhs.add(5);
+        lhs.add(6);
+        lhs.add(3);
+        lhs.add(2);//no sorting
+
+        // lhs.forEach(n->System.out.print(n+" "));
+
+        Iterator<Integer> itr= lhs.iterator();
+
+        while(itr.hasNext()){
+            System.out.print(itr.next()+" ");
+        }
     }
 }
